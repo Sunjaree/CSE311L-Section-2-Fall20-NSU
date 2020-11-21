@@ -1,3 +1,3 @@
 1. SELECT e.Last_Name, e.Department_Id , d.Department_name from employees e, departments d 
 2. SELECT last_name , Hire_Date FROM employees WHERE Hire_Date BETWEEN '1998-02-20' AND '1998-05-01' ORDER BY Hire_Date ASC
-3.
+3. SELECT Last_Name,Salary/4 AS 'Weekly Salary',Department_Id FROM employees
